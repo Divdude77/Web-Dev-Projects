@@ -1,0 +1,89 @@
+body {
+    font-family: Avenir, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+h3 {
+    position: absolute;
+    margin: 0;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 2000px) {
+    #a {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    #b {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1599px) {
+    #c {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 1250px) and (max-width: 1349px) {
+    #d {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1249px) {
+    #e {
+        visibility: visible;
+    }   
+}
+
+@media (min-width: 950px) and (max-width: 1099px) {
+    #f {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 949px) {
+    #g {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 799px) {
+    #h {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 649px) {
+    #i {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 599px) {
+    #j {
+        visibility: visible;
+    }
+}
+
+@media (max-width: 549px) {
+    #k {
+        visibility: visible;
+    }
+}
+
