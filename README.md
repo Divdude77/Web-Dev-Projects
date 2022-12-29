@@ -14,5 +14,5 @@ A collection of my web development projects!
 - A fun website demonstrating responsive website design. Change browser width to see the magic.
 
 ### [Radar](https://divdude77.github.io/Web-Dev-Projects/radar/)
-- A simple radar animation I made using only CSS.
+- A simple radar animation I made using only CSS.<br>
 <img width="400" alt="Screenshot 2022-12-29 at 14 39 51" src="https://user-images.githubusercontent.com/75612147/209939814-980bc0c1-3ab1-4d85-9c98-4a9890e7c7a8.png">
