@@ -3,8 +3,8 @@ A collection of my web development projects!
 
 ### [Calculator](https://divdude77.github.io/Web-Dev-Projects/calculator/)
  - A neat calculator I designed compeletely on my own, with themes menu and ability to set custom themes.
- <img height="400" alt="Calculator" src="https://user-images.githubusercontent.com/75612147/209939197-86537ea4-141a-4760-a7fd-88b5e4f2efeb.png" align="left">
- <img height="400" alt="Calculator with themes menu open" src="https://user-images.githubusercontent.com/75612147/209939063-ec77d363-3d21-4e00-bf69-c796223343f1.png">
+ <img height="300" alt="Calculator" src="https://user-images.githubusercontent.com/75612147/209939197-86537ea4-141a-4760-a7fd-88b5e4f2efeb.png" align="left">
+ <img height="300" alt="Calculator with themes menu open" src="https://user-images.githubusercontent.com/75612147/209939063-ec77d363-3d21-4e00-bf69-c796223343f1.png">
 
 #
 ### [Sample Restaurant Website](https://divdude77.github.io/Web-Dev-Projects/restaurant/)
