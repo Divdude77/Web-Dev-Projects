@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chinu's China Bistro</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Nav bar -->
+        <header>
+            <nav class="navbar navbar-expand-md" id="header-nav">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/restaurant-logo.png" alt="Logo" class="float-start d-none d-lg-block" id="nav-logo">
+                        <h1>Chinu's China Bistro</h1>
+                        <p>
+                            <img src="images/star-k-logo.png" alt="kosher" style="margin-left: 5px;">
+                            <span>Kosher Certified</span>
+                        </p>
+                    </a>
+                    <button class="navbar-toggler" id="navbar-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsing-nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsing-nav">
+                        <ul class="navbar-nav ms-auto" id="navbar-list">
+                            <li class="navbar-item active d-block d-md-none" id="home-button">
+                                <a href="index.html" class="nav-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#61122f" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                                    </svg>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="navbar-item" id="menu-button">
+                                <a href="#" class="nav-link" onclick="$cc.loadMenuCategories();">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#61122f" class="bi bi-journal-text d-sm-inline d-md-block mx-auto" viewBox="0 0 16 16">
+                                        <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                                        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                                        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                                    </svg>
+                                    Menu
+                                </a>
+                            </li>
+                            <li class="navbar-item" id="about-button">
+                                <a href="#" class="nav-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#61122f" class="bi bi-info-circle-fill d-sm-inline d-md-block mx-auto" viewBox="0 0 16 16">
+                                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                    </svg>
+                                    About
+                                </a>
+                            </li>
+                            <li class="navbar-item" id="awards-button">
+                                <a href="#" class="nav-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#61122f" class="bi bi-award-fill d-sm-inline d-md-block mx-auto" viewBox="0 0 16 16">
+                                        <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                                    </svg>
+                                    Awards
+                                </a>
+                            </li>
+                            <li id="phone" class="d-none d-md-block">
+                                <a href="tel:044301292" class="nav-link">
+                                    <span>044301292</span>
+                                </a>
+                                <div>*We Deliver!</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container d-sm-block d-md-none text-center" id="call-button">
+            <a href="tel:044301292">
+                <div>
+                    <div>
+                        <svg id="call-svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
+                        044301292
+                        <div>*We Deliver</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div id="main-content" class="container">
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div id="hours" class="col-md-4 text-center text-md-start mb">
+                        <span>Hours:</span><br>
+                        Sun-Thurs: 11:15am - 10:00pm<br>
+                        Fri-Sat: 11:15am - 2:30pm<br>
+                        Saturday Closed
+                        <hr class="d-sm-block d-md-none w-50 mx-auto">
+                    </div>
+                    <div id="address" class="col-md-4 text-center text-md-start">
+                        <span>Address:</span><br>
+                        7105 Riesterstown Road<br>
+                        Baltimore, MD 21215<br>
+                        <p>*Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries</p>
+                        <hr class="d-sm-block d-md-none w-50 mx-auto">
+                    </div>
+                    <div id="testimonials" class="col-md-4 text-center text-md-start">
+                        <p>"The best Chinese restaurant I've been to! And that's saying a lot, since  I've been to many!</p>
+                        <p>"Amazing food! Great Service! Couldn't ask for more! I'll be back again and again!"</p>
+                    </div>
+                </div>
+                <div class="text-center fw-light">
+                    &copy; Copyright Chinu's China Bistro 2022
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery (Bootstrap JS plugins depend on it) -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/ajax-utils.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

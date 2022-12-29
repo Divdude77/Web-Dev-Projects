@@ -1,0 +1,366 @@
+body {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    padding: 10px 0 10px 0;
+    overflow: hidden;
+}
+
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    padding-top: 25px;
+    line-height: 0.75em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar-brand span {
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+.navbar-toggler {
+    border: solid #61122f 1px;
+}
+
+li {
+    padding: 10px;
+    align-items: center;
+    border-radius: 2px;
+    text-align: center;
+}
+
+li:hover, .active{
+    background-color: #ffffff8e;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #61122f;
+}
+
+li > a:hover {
+    color: #61122f
+}
+
+#phone {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#phone a span{
+    font-size: 2em;
+}
+
+#phone div {
+    width: 90%;
+    color: #557c3e;
+    text-align: right;
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#call-svg {
+    margin-bottom: 3px;
+}
+
+#call-button {
+    margin-top: 10px;
+}
+
+#call-button > a{
+    text-decoration: none;
+    color: #61122f;
+    font-size: 24px;
+}
+
+#call-button > a > div {
+    background-color: #f6b319;
+    border: 2px solid #3f0c1f;
+    border-radius: 5px;
+    height: 65px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#call-button > a > div > div {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0, -50%);
+}
+
+#call-button > a > div > div > div {
+    font-size: 15px;
+    margin-top: -9px;
+}
+
+#call-button > a > div:hover {
+    background-color: #557c3e;
+    color: #ffffff;
+}
+
+.jumbotron {
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+    border-radius: 5px;
+}
+
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    background-color: #3f0c1f;
+    border: 2px solid #3f0c1f;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 0 74px 4px rgba(0,0,0,0.76);
+    color: rgb(180, 180, 180);
+}
+
+#home-tiles span {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: #161616d7;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#menu-tile {
+    background: url("../images/menu-tile.jpg") no-repeat center center;
+}
+
+#specials-tile {
+    background: url("../images/specials-tile.jpg") no-repeat center center;
+}
+
+footer {
+    background-color: #222;
+    padding: 10px;
+}
+
+footer .row {
+    margin-bottom: 30px;
+}
+
+#hours, #address {
+    line-height: 2;
+}
+
+#hours > span, #address > span {
+    font-size: 1.3em;
+    margin-top: 0px;
+}
+
+#address > p {
+    color: #557c3e;
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
+#testimonials {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#testimonials > p:nth-child(2) {
+    margin-top: 25px;
+}
+
+#menu-categories-title + div {
+    margin-bottom: 10px;
+}
+
+.category-title {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+
+.category-title span {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: #161616d7;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.category-title:hover {
+    box-shadow: 0 0 74px 4px rgba(0,0,0,0.76);
+}
+
+#menu-category-title + div {
+    margin-bottom: 25px;
+}
+
+.menu-item-tile {
+    margin-bottom: 25px;
+}
+
+.menu-item-tile .menu-item-price {
+    font-size: 1.1em;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.menu-item-tile .menu-item-price span{
+    font-size: 0.6em;
+}
+
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    max-width: 250px;
+}
+
+.menu-item-photo div {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #557c3e;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    border-top: 2px solid #3f0c1f;
+    border-left: 2px solid #3f0c1f;
+}
+
+.menu-item-description {
+    padding-right: 10px;
+}
+
+h3.menu-item-title {
+    margin: 0 0 10px;
+}
+
+.menu-item-details {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/**** Large Devices ****/
+@media (min-width: 1200px) {
+    /* Adjusting container width to match image width of jumbotron and tiles */
+    .container {
+        width: 1160px;
+    }
+    .jumbotron {
+        background: url(../images/jumbotron_1200.jpg) no-repeat;
+        height: 675px;
+    }
+}
+
+/**** Medium Devices ****/
+@media (min-width:992px) and (max-width:1199px) {
+    #nav-logo {
+        height: 100px;
+        padding: 0px 5px 0px 5px;
+    }
+    .jumbotron {
+        background: url(../images/jumbotron_992.jpg) no-repeat;
+        height: 558px;
+    }
+}
+
+/**** Small Devices ****/
+@media (min-width:768px) and (max-width:991px) {
+    .navbar-brand h1 {
+        font-size: 1.25em;
+    }
+    .jumbotron {
+        background: url(../images/jumbotron_768.jpg) no-repeat;
+        height: 432px;
+    }
+}
+
+/**** Extra Small Devices ****/
+@media (min-width:576px) and (max-width:767px) {
+    .navbar-brand h1 {
+        font-size: 1.25em;
+    }
+    svg {
+        height: 24px;
+        width: 24px;
+        margin-bottom: 4px;
+    }
+    footer > div > div > div {
+        margin-bottom: -10px;
+    }
+}
+
+/**** Mobile Devices ****/
+@media (min-width: 376px) and (max-width:575px) {
+    .navbar-brand h1 {
+        font-size: 5vw;
+    }
+    .navbar-brand span {
+        font-size: 0.6em;
+    }
+    svg {
+        height: 24px;
+        width: 24px;
+        margin-bottom: 4px;
+    }
+    #menu-tile, #specials-tile {
+        width: 360px;
+    }
+    footer > div > div > div {
+        margin-bottom: -10px;
+    }
+}
+
+/**** Small Mobile Devices ****/
+@media (max-width: 375px) {
+    .navbar-brand h1 {
+        font-size: 5.5vw;
+    }
+    .navbar-brand span {
+        font-size: 0.6em;
+    }
+    svg {
+        height: 24px;
+        width: 24px;
+        margin-bottom: 4px;
+    }
+    #menu-tile, #specials-tile {
+        width: inherit;
+    }
+    footer > div > div > div {
+        margin-bottom: -10px;
+    }
+}
