@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    height: 97vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    --radius: 90vmin;
+}
+
+.scanner-case {
+    position: relative;
+    border-radius:50%;
+    height: var(--radius);
+    width: var(--radius);
+    overflow: hidden;  
+    border: solid 0.5px #15ff0080;
+}
+
+.scanner {
+    border-radius: inherit;
+    height: inherit;
+    width: inherit;
+    overflow: inherit;
+    position: relative;
+    animation: spin 4s infinite linear;
+}
+
+.scanner-ray {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(45deg, #17ff00 0%, rgba(0,0,0,1) 50%);
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: inherit;
+    border-left: inherit;
+}
+
+.scanner-case .line:nth-child(3) {
+    transform: rotate(45deg);
+}
+
+.scanner-case .line:nth-child(4) {
+    transform: rotate(90deg);
+}
+
+.scanner-case .line:nth-child(5) {
+    transform: rotate(135deg);
+}
+
+.circle {
+    border-radius: inherit;
+    border: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.scanner-case .circle:nth-child(6) {
+    width: calc(var(--radius) * 0.75);
+    height: calc(var(--radius) * 0.75);
+}
+
+.scanner-case .circle:nth-child(7) {
+    width: calc(var(--radius) * 0.5);
+    height: calc(var(--radius) * 0.5);
+}
+
+.scanner-case .circle:nth-child(8) {
+    width: calc(var(--radius) * 0.25);
+    height: calc(var(--radius) * 0.25);
+}
+
+.dot {
+    border-radius: inherit;
+    background: #17ff00;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    opacity: 0;
+}
+
+.scanner-case .dot:nth-child(9) {
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation: blip 4s linear infinite;
+}
+
+.scanner-case .dot:nth-child(10) {
+    top: 25%;
+    left: 25%;
+    animation: blip 4s linear infinite;
+    animation-delay: 1.5s;
+}
+
+.scanner-case .dot:nth-child(11) {
+    top: 50%;
+    left: 80%;
+    transform: translate(0, -50%);
+    animation: blip 4s linear infinite;
+    animation-delay: 3s;
+}
+
+@keyframes spin{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes blip {
+    0% {
+        opacity: 0;
+    }
+    2% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+}
