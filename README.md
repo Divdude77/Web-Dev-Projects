@@ -5,6 +5,9 @@ A collection of my web development projects!
  - A neat calculator I designed compeletely on my own, with a themes menu and ability to set custom themes.
  <img height="300" alt="Calculator" src="https://user-images.githubusercontent.com/75612147/209939197-86537ea4-141a-4760-a7fd-88b5e4f2efeb.png" align="left">
  <img height="300" alt="Calculator with themes menu open" src="https://user-images.githubusercontent.com/75612147/209939063-ec77d363-3d21-4e00-bf69-c796223343f1.png">
+ 
+### [Count-Up Timer](https://divdude77.github.io/Web-Dev-Projects/count-up/)
+ - A clean looking count up timer counting up from a specific date, with an animation upon page load.
 
 ### [Sample Restaurant Website](https://divdude77.github.io/Web-Dev-Projects/restaurant/)
  - A sample restaurant website I designed as part of a web development course from Johns Hopkins University.
