@@ -1,0 +1,146 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+html {
+    color: #ffffffc2;
+    overflow-x: hidden;
+}
+
+.heart {
+    z-index: -1;
+    border-radius: 100%;
+    height: 2vmax;
+    width: 2vmax;
+    position: absolute;
+    top: -15%;
+    left: 0%;
+    animation: falling 15s linear;
+}
+
+.heart::before {
+    content: "";
+    position: absolute;
+    left: 70%;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    border-radius: 100%;
+}
+
+.heart::after {
+    content: "";
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    height: 94%;
+    width: 94%;
+    background-color: inherit;
+    border-radius: 0 0 17% 0;
+    transform: rotate(45deg);
+}
+
+#main-content {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clock {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+    margin-top: -5px;
+    --number-size: 11vmax;
+}
+
+#clock li:nth-child(even) {
+    height: 100%;
+    font-size: 7vmax;
+    color: #ffffff90;
+    font-weight: 300;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+li > div {
+    font-size: var(--number-size);
+    margin-bottom: -10px;
+    font-weight: 500;
+}
+
+li > div > span {
+    color: #ffffff49;
+}
+
+li > span {
+    color: #ffffff90;
+    font-size: 1.5vmax;
+    /* font-weight: 300; */
+}
+
+#fact {
+    font-size: 1.7vmax;
+    color: #ffffffc2;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 2%;
+    font-weight: 300;
+}
+
+.not-yet {
+    display: none;
+}
+
+
+@keyframes falling {
+    100% {
+        top: 200%;
+        transform: rotate(45deg);
+    }
+}
+
+
+@media screen and (orientation: portrait) {
+    html {
+        height: fit-content;
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #main-content {
+        position: relative;
+        transform: none;
+        left: 0;
+    }
+
+    #clock {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    #clock li:nth-child(even) {
+        display: none;
+    }
+
+    #fact {
+        display: none;
+    }
+}

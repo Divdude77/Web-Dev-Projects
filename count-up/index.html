@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Since</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main-content">
+        <span style="font-size: 2vmax;">It's been</span>
+        <ul id="clock">
+            <li id="years">
+                <div id="yearsVal"></div>
+                <span>Years</span>
+            </li>
+            <li id="yearsColon">:</li>
+            <li id="months">
+                <div id="monthsVal"></div>
+                <span>Months</span>
+            </li>
+            <li>:</li>
+            <li id="days">
+                <div id="daysVal"></div>
+                <span>Days</span>
+            </li>
+            <li>:</li>
+            <li id="hours">
+                <div id="hoursVal"></div>
+                <span>Hours</span>
+            </li>
+            <li>:</li>
+            <li id="minutes">
+                <div id="minutesVal"></div>
+                <span>Minutes</span>
+            </li>
+            <li>:</li>
+            <li id="seconds">
+                <div id="secondsVal"></div>
+                <span>Seconds</span>
+            </li>
+        </ul>
+        <span style="font-size: 2vmax;">and counting...</span>
+    </div>
+
+    <span id="fact"></span>
+</body>
+</html>
