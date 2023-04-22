@@ -8,6 +8,8 @@ A collection of my web development projects!
  
 ### [Count-Up Timer](https://divdude77.github.io/Web-Dev-Projects/count-up/)
  - A clean looking count up timer counting up from a specific date, with an animation upon page load.
+<img height="400" alt="Screenshot 2023-04-22 at 11 16 45 AM" src="https://user-images.githubusercontent.com/75612147/233778043-eb411a76-c6ab-4c29-b825-fe6f79704f3d.png" align="left">
+<img height="400" alt="Screenshot 2023-04-22 at 11 17 14 AM" src="https://user-images.githubusercontent.com/75612147/233778057-4e2e63c7-09e4-4583-9737-eb7003e1d0e6.png">
 
 ### [Sample Restaurant Website](https://divdude77.github.io/Web-Dev-Projects/restaurant/)
  - A sample restaurant website I designed as part of a web development course from Johns Hopkins University.
