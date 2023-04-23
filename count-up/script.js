@@ -10,7 +10,7 @@ const colors = [
 
 window.onload = () => {
     facts = updateTime(true);
-    document.querySelector("#fact").innerHTML = facts[Math.floor(Math.random() * 6)];
+    document.querySelector("#fact").innerHTML = facts[Math.floor(Math.random() * 4)];
     color = colors[Math.floor(Math.random() * 7)]
     document.querySelector("html").style.backgroundColor = color[0];
     document.querySelector("html").innerHTML += "<div class='heart'></div>".repeat(70);
