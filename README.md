@@ -7,7 +7,7 @@ A collection of my web development projects!
  <img height="300" alt="Calculator with themes menu open" src="https://user-images.githubusercontent.com/75612147/209939063-ec77d363-3d21-4e00-bf69-c796223343f1.png">
  
 ### [Count-Up Timer](https://divdude77.github.io/Web-Dev-Projects/count-up/)
- - A clean looking count up timer counting up from a specific date, with an animation upon page load.
+ - A clean looking count up timer counting up from a specific date, with an animation upon page load.<br>
 <img height="300" alt="Screenshot 2023-04-22 at 11 16 45 AM" src="https://user-images.githubusercontent.com/75612147/233778043-eb411a76-c6ab-4c29-b825-fe6f79704f3d.png" align="left">
 <img height="300" alt="Screenshot 2023-04-22 at 11 17 14 AM" src="https://user-images.githubusercontent.com/75612147/233778057-4e2e63c7-09e4-4583-9737-eb7003e1d0e6.png">
 
