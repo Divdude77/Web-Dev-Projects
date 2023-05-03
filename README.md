@@ -18,6 +18,7 @@ A collection of my web development projects!
 ### [Sample Restaurant Website](https://divdude77.github.io/Web-Dev-Projects/restaurant/)
  - A sample restaurant website I designed as part of a web development course from Johns Hopkins University.
  - Used Bootstrap 5.
+ - Server providing the data has shut down.
 
 ### [Claustrophobia](https://divdude77.github.io/Web-Dev-Projects/claustrophobia/)
 - A fun website demonstrating responsive website design. Change browser width to see the magic.
