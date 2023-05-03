@@ -11,13 +11,13 @@ A collection of my web development projects!
 <img height="300" alt="Screenshot 2023-04-22 at 11 16 45 AM" src="https://user-images.githubusercontent.com/75612147/233778043-eb411a76-c6ab-4c29-b825-fe6f79704f3d.png" align="left">
 <img height="300" alt="Screenshot 2023-04-22 at 11 17 14 AM" src="https://user-images.githubusercontent.com/75612147/233778057-4e2e63c7-09e4-4583-9737-eb7003e1d0e6.png">
 
+### [Radar](https://divdude77.github.io/Web-Dev-Projects/radar/)
+- A simple radar animation I made using only CSS.<br>
+<img width="400" alt="Screenshot 2022-12-29 at 14 39 51" src="https://user-images.githubusercontent.com/75612147/209939814-980bc0c1-3ab1-4d85-9c98-4a9890e7c7a8.png">
+
 ### [Sample Restaurant Website](https://divdude77.github.io/Web-Dev-Projects/restaurant/)
  - A sample restaurant website I designed as part of a web development course from Johns Hopkins University.
  - Used Bootstrap 5.
 
 ### [Claustrophobia](https://divdude77.github.io/Web-Dev-Projects/claustrophobia/)
 - A fun website demonstrating responsive website design. Change browser width to see the magic.
-
-### [Radar](https://divdude77.github.io/Web-Dev-Projects/radar/)
-- A simple radar animation I made using only CSS.<br>
-<img width="400" alt="Screenshot 2022-12-29 at 14 39 51" src="https://user-images.githubusercontent.com/75612147/209939814-980bc0c1-3ab1-4d85-9c98-4a9890e7c7a8.png">
