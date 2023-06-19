@@ -42,18 +42,22 @@ window.onload = () => {
 }
 
 function updateTime(facts) {
+    // Calculate the time elapsed in seconds, minutes, hours, days, months, and years
     const itBegan = new Date("2022-12-20T05:07:00Z");
     const currentDate = new Date();
 
-    diff = currentDate - itBegan;
+    currentDate.setMinutes(currentDate.getMinutes() - itBegan.getMinutes());
+    currentDate.setHours(currentDate.getHours() - itBegan.getHours());
+    currentDate.setDate(currentDate.getDate() - itBegan.getDate());
+    currentDate.setMonth(currentDate.getMonth() - itBegan.getMonth());
+    currentDate.setFullYear(currentDate.getFullYear() - itBegan.getFullYear());
 
-    // Calculate the time elapsed in seconds, minutes, hours, days, months, and years
-    const y = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
-    const mt = Math.floor((diff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30));
-    const d = Math.floor((diff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
-    const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const s = Math.floor((diff % (1000 * 60)) / 1000);
+    s = currentDate.getSeconds();
+    m = currentDate.getMinutes();
+    h = currentDate.getHours();
+    d = currentDate.getDate();
+    mt = currentDate.getMonth();
+    y = currentDate.getFullYear();
 
     if (s < 10) {
         document.querySelector("#secondsVal").innerHTML = "<span>0</span>" + s.toString();
