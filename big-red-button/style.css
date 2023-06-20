@@ -1,3 +1,7 @@
+* {
+    user-select: none;
+}
+
 html {
     background-color: #edba97;
     display: flex;
