@@ -1,5 +1,3 @@
-var state = 0;
-
 function buttonPress() {
     if (!document.querySelector("#button").classList.contains("pressed")) {
         document.querySelector("#button").classList.add("pressed");
