@@ -1,0 +1,40 @@
+<!-- TODO Add shrubs and flowers to pavement -->
+<!-- TODO Add ambient traffic sounds -->
+<!-- TODO Fix impossible roads: Same Delay in lanes gives uncrossable roads -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolly Road</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body id="main">
+    <div id="score">0</div>
+    <div id="gameover-dialog">
+        <div>
+            GAME OVER
+            <div id="gameover-score"></div>
+            <div id="restart">Restart</div>
+        </div>
+    </div>
+    <div class="pavement" style="display: flex; justify-content: center; align-items: center;" id="start">
+        <span style="text-align: center; font-weight: bold; font-size: 10vmin; color: white;
+        letter-spacing: 0.1em;
+        text-shadow: rgb(255, 255, 255) 0px -1px 0px, rgb(46, 46, 46) 0px 1px 0px, rgb(44, 44, 44) 0px 2px 0px, rgb(42, 42, 42) 0px 3px 0px, rgb(40, 40, 40) 0px 4px 0px, rgb(38, 38, 38) 0px 5px 0px, rgb(36, 36, 36) 0px 6px 0px, rgb(34, 34, 34) 0px 7px 0px, rgb(32, 32, 32) 0px 8px 0px, rgb(30, 30, 30) 0px 9px 0px, rgb(28, 28, 28) 0px 10px 0px, rgb(26, 26, 26) 0px 11px 0px, rgb(24, 24, 24) 0px 12px 0px, rgb(22, 22, 22) 0px 13px 0px, rgb(20, 20, 20) 0px 14px 0px, rgb(18, 18, 18) 0px 15px 0px, rgba(0, 0, 0, 0.9) 0px 22px 30px;
+        --darkreader-inline-color: #d3cfca;
+        --darkreader-inline-bgimage: initial;
+        z-index: 1;">Scrolly Road</span>
+    </div>
+    <div class="pavement"></div>
+    <div id="player"></div>
+    <div class="pavement"></div>
+    <script src="script.js"></script>
+</body>
+</html>
