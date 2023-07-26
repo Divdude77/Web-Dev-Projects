@@ -1,15 +1,13 @@
 # Web-Dev Projects
 A collection of my web development projects!
 
-### [Big Red Button](https://divdude77.github.io/Web-Dev-Projects/big-red-button/)
- - As the name suggests.
-<img width="999" alt="Screenshot 2023-06-20 at 12 55 48 PM" src="https://github.com/Divdude77/Web-Dev-Projects/assets/75612147/2b4c89e5-afb5-4125-ba89-9d11543f2ca2">
-
 ### [Scrolly Road](https://divdude77.github.io/Web-Dev-Projects/scrolly-road/)
  - Like Crossy Road, but with the scroll bar!
 <img width="1493" alt="Screenshot 2023-07-16 at 6 09 41 PM" src="https://github.com/Divdude77/Web-Dev-Projects/assets/75612147/e3f762e5-0f04-4bce-8a7b-53968582bc6a">
 
-   
+### [Big Red Button](https://divdude77.github.io/Web-Dev-Projects/big-red-button/)
+ - As the name suggests.
+<img width="999" alt="Screenshot 2023-06-20 at 12 55 48 PM" src="https://github.com/Divdude77/Web-Dev-Projects/assets/75612147/2b4c89e5-afb5-4125-ba89-9d11543f2ca2">
 
 ### [Calculator](https://divdude77.github.io/Web-Dev-Projects/calculator/)
  - A neat calculator I designed entirely independently, with a theme menu and the ability to set custom themes.
