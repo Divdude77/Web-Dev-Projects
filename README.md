@@ -1,9 +1,9 @@
 # Web-Dev Projects
 A collection of my web development projects!
 
-### [Scrolly Road](https://divdude77.github.io/Web-Dev-Projects/scrolly-road/)
+### [Scrolly Road](https://divdude77.github.io/scrolly-road/)
  - Like Crossy Road, but with the scroll bar!
-<img width="1493" alt="Scrolly Road" src="https://github.com/Divdude77/Web-Dev-Projects/assets/75612147/e3f762e5-0f04-4bce-8a7b-53968582bc6a">
+<img width="1493" alt="Scrolly Road" src="https://github.com/Divdude77/scrolly-road/assets/75612147/7dcc26d8-2be7-4405-a049-4ad339d24ea6">
 
 ### [Scroll Cryptex Effect](https://divdude77.github.io/html-cryptex-effect/)
  - A cryptex-like effect upon scroll.
